@@ -3,8 +3,8 @@ import React from "react";
 const footer = () => {
 	return (
 		<div className="text-center">
-			<div class="card">
-                <div class="card-header">
+			<div className="card bg-dark text-white">
+                <div className="card-header">
                     Copy Rith
                 </div>
                 

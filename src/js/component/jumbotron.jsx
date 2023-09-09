@@ -2,13 +2,12 @@ import React from "react";
 
 const jumbotron = () => {
 	return (
-		<div className="text-center">
-			<div className="jumbotron">
-                <h1 className="display-4">Hello, world!</h1>
+		<div className="container my-5">
+			<div className="position-relative p-5 border rounded p-3 mb-2 bg-light text-dark">
+                <h1 className="display-4 d-flex">Hello, world!</h1>
                 <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr className="my-4"/>
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <p className="lead">
+                
+                <p className="lead d-flex flex-row mb-3">
                     <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
                 </p>
             </div>
